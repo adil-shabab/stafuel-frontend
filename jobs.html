@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Stafuel | Job Consultancy</title>
+
+  <!-- Stylesheets -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+  <!-- Responsive -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+</head>
+
+<body>
+
+  <div class="page-wrapper">
+
+    <!-- Preloader -->
+    <div class="preloader"></div>
+
+    <!-- Header Span -->
+    <span class="header-span"></span>
+
+    <!-- Main Header-->
+    <header class="main-header header-style-three">
+      <div class="container-fluid">
+        <!-- Main box -->
+        <div class="main-box">
+          <!--Nav Outer -->
+          <div class="nav-outer">
+            <div class="logo-box">
+              <div class="logo logo_navbar"><a href="index.html"><img src="images/stafuel-logo.png" alt="" title=""></a></div>
+            </div>
+
+            <nav class="nav main-menu">
+              <ul class="navigation" id="navbar">
+                <li class="">
+                  <a href="#">Home</a>
+                </li>
+                <li class="">
+                  <a href="#">About</a>
+                </li>
+                <li class="current">
+                  <a href="">Find Jobs</a>
+                </li>
+                <li class="">
+                  <a href="#">Blogs</a>
+                </li>
+                <li class="">
+                  <a href="#">Contact</a>
+                </li>
+
+                
+              </ul>
+            </nav>
+            <!-- Main Menu End-->
+          </div>
+
+          <div class="outer-box">
+            <div class="btn-box">
+              <a href="#" class="theme-btn btn-style-seven">Upload Your Resume</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Header -->
+      <div class="mobile-header">
+        <div class="logo"><a href="index.html"><img src="images/logo-3.svg" alt="" title=""></a></div>
+
+        <!--Nav Box-->
+        <div class="nav-outer clearfix">
+
+          <div class="outer-box">
+            <!-- Login/Register -->
+            <div class="login-box">
+              <a href="login-popup.html" class="call-modal"><span class="icon-user"></span></a>
+            </div>
+
+            <a href="#nav-mobile" class="mobile-nav-toggler navbar-trigger"><span class="flaticon-menu-1"></span></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Nav -->
+      <div id="nav-mobile"></div>
+    </header>
+    <!--End Main Header -->
+
+    <!--Page Title-->
+    <section class="page-title style-two">
+      <div class="auto-container">
+
+        <!-- Job Search Form -->
+        <div class="job-search-form">
+          <form method="post" action="https://creativelayers.net/themes/superio/job-list-v10.html">
+            <div class="row">
+              <!-- Form Group -->
+              <div class="form-group col-lg-4 col-md-12 col-sm-12">
+                <span class="icon flaticon-search-1"></span>
+                <input type="text" name="field_name" placeholder="Job title, keywords, or company">
+              </div>
+
+              <!-- Form Group -->
+              <div class="form-group col-lg-3 col-md-12 col-sm-12 location">
+                <span class="icon flaticon-map-locator"></span>
+                <input type="text" name="field_name" placeholder="City or postcode">
+              </div>
+
+              <!-- Form Group -->
+              <div class="form-group col-lg-3 col-md-12 col-sm-12 location">
+                <span class="icon flaticon-briefcase"></span>
+                <select class="chosen-select">
+                  <option value="">All Categories</option>
+                  <option value="44">Accounting / Finance</option>
+                  <option value="106">Automotive Jobs</option>
+                  <option value="46">Customer</option>
+                  <option value="48">Design</option>
+                  <option value="47">Development</option>
+                  <option value="45">Health and Care</option>
+                  <option value="105">Marketing</option>
+                  <option value="107">Project Management</option>
+                </select>
+              </div>
+
+              <!-- Form Group -->
+              <div class="form-group col-lg-2 col-md-12 col-sm-12 text-right">
+                <button type="submit" class="theme-btn btn-style-one">Find Jobs</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- Job Search Form -->
+      </div>
+    </section>
+    <!--End Page Title-->
+
+    <!-- Listing Section -->
+    <section class="ls-section">
+      <div class="auto-container">
+        <div class="filters-backdrop"></div>
+
+        <div class="row">
+
+          <!-- Filters Column -->
+          <div class="filters-column col-lg-4 col-md-12 col-sm-12">
+            <div class="inner-column">
+              <div class="filters-outer">
+                <button type="button" class="theme-btn close-filters">X</button>
+
+                <!-- Switchbox Outer -->
+                <div class="switchbox-outer">
+                  <h4>Job type</h4>
+                  <ul class="switchbox">
+                    <li>
+                      <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                        <span class="title">Freelance</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        <span class="title">Full Time</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        <span class="title">Internship</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        <span class="title">Part Time</span>
+                      </label>
+                    </li>
+                    <li>
+                      <label class="switch">
+                        <input type="checkbox">
+                        <span class="slider round"></span>
+                        <span class="title">Temporary</span>
+                      </label>
+                    </li>
+                  </ul>
+                </div>
+
+
+
+                <!-- Checkboxes Ouer -->
+                <div class="checkbox-outer">
+                  <h4>Experience Level</h4>
+                  <ul class="checkboxes square">
+                    <li>
+                      <input id="check-ba" type="checkbox" name="check">
+                      <label for="check-ba">0-1 Year</label>
+                    </li>
+                    <li>
+                      <input id="check-bb" type="checkbox" name="check">
+                      <label for="check-bb">1-2 Years</label>
+                    </li>
+                    <li>
+                      <input id="check-bc" type="checkbox" name="check">
+                      <label for="check-bc">3-4 Years</label>
+                    </li>
+                    <li>
+                      <input id="check-bd" type="checkbox" name="check">
+                      <label for="check-bd">4-5 Years</label>
+                    </li>
+                    <li>
+                      <input id="check-be" type="checkbox" name="check">
+                      <label for="check-be">5+ Years</label>
+                    </li>
+                  </ul>
+                </div>
+
+                <!-- Filter Block -->
+                <div class="filter-block">
+                  <h4>Salary</h4>
+
+                  <div class="range-slider-one salary-range">
+                    <div class="salary-range-slider"></div>
+                    <div class="input-outer">
+                      <div class="amount-outer">
+                        <span class="amount salary-amount">
+                          &#x20b9; <span class="min">0</span>
+                          &#x20b9; <span class="max">0</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+          </div>
+
+          <!-- Content Column -->
+          <div class="content-column col-lg-8 col-md-12 col-sm-12">
+            <div class="ls-outer">
+              <button type="button" class="theme-btn btn-style-two toggle-filters">Show Filters</button>
+
+              <!-- ls Switcher -->
+              <div class="ls-switcher">
+                <div class="showing-result">
+                  <div class="text">Showing <strong>60</strong> of <strong>60</strong> jobs</div>
+                </div>
+                
+              </div>
+
+
+              <!-- Job Block -->
+              <div class="job-block">
+                <div class="inner-box">
+                  <div class="content">
+                    <span class="company-logo">
+                      <span class="flaticon-briefcase"></span>
+                    </span>
+                    <h4><a href="#">Recruiting Coordinator</a></h4>
+                    <ul class="job-info">
+                      <li><span class="icon flaticon-briefcase"></span> Segment</li>
+                      <li><span class="icon flaticon-map-locator"></span> London, UK</li>
+                      <li><span class="icon flaticon-clock-3"></span> 11 hours ago</li>
+                      <li><span class="icon flaticon-money"></span> &#x20b9; 35k - &#x20b9; 45k</li>
+                    </ul>
+                    <ul class="job-other-info">
+                      <li class="time">Full Time</li>
+                      <li class="privacy">1-2 Years of Experience</li>
+                    </ul>
+                    <div class="mt-3">
+                      <a href="#" class="theme-btn btn-style-three d-flex">Apply Job</a>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--End Listing Page Section -->
+
+
+    <!-- Subscribe Section -->
+    <section class="container px-md-5 px-3 subscribe-section at-home21" style="margin-top: 120px;">
+      <div class="auto-container">
+        <div class="outer-box wow fadeInUp">
+          <div class="sec-title">
+            <h2 class="mb-3" style="color: white;">Subscribe Our Newsletter</h2>
+            <div style="color: white;">Advertise your jobs to millions of monthly users and search<br> 15.8 million CVs in our database.</div>
+          </div>
+          <div class="form-column">
+            <div class="subscribe-form">
+              <form method="post" action="#">
+                <div class="form-group">
+                  <div class="response"></div>
+                </div>
+                <div class="form-group">
+                  <input type="email" name="email" class="email bdrs120" value="" placeholder="Your e-mail" required>
+                  <button type="button" id="subscribe-newslatters" class="theme-btn home21-style btn-style-one bg-dark bdrs120">Subscribe <i class="fal fa-long-arrow-right ms-3"></i></button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Subscribe Section -->
+
+    <!-- Main Footer -->
+    <footer class="main-footer alternate3">
+      <div class="auto-container">
+        <!--Widgets Section-->
+        <div class="widgets-section">
+          <div class="row">
+            <div class="big-column col-xl-4 col-lg-3 col-md-12">
+              <div class="footer-column about-widget">
+                <div class="logo"><a href="#"><img style="width: 185px;" src="images/stafuel-logo.png" alt=""></a></div>
+                <p class="phone-num"><span>Call us </span><a href="">+91 7382488318</a></p>
+                <p class="address">3D.No: 10-1-112/4, K.N.Road, Opp SBI bank Market Yard Branch, Tadepalligudem, West Godavari, Andhra Pradesh-534102. <br><a href="mailto:info@stafuel.in" class="email">info@stafuel.in</a></p>
+              </div>
+            </div>
+
+            <div class="big-column col-xl-8 col-lg-9 col-md-12">
+              <div class="row">
+                <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                  <div class="footer-widget links-widget">
+                    <h4 class="widget-title">Official Emails</h4>
+                    <div class="widget-content">
+                      <ul class="list">
+                        <li><a href="#">info@stafuel.in</a></li>
+                        <li><a href="#">info@stafuel.in</a></li>
+                        <li><a href="#">sainath@stafuel.in</a></li>
+                        <li><a href="#">nagendra@stafuel.in</a></li>
+                        <li><a href="#">jayanth@stafuel.in</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                  <div class="footer-widget links-widget">
+                    <h4 class="widget-title">Useful Links</h4>
+                    <div class="widget-content">
+                      <ul class="list">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                  <div class="footer-widget links-widget">
+                    <h4 class="widget-title">Categories</h4>
+                    <div class="widget-content">
+                      <ul class="list">
+                        <li><a href="#">Finance</a></li>
+                        <li><a href="#">Engineering</a></li>
+                        <li><a href="#">Logistics</a></li>
+                        <li><a href="#">Media & Advertising</a></li>
+                        <li><a href="#">Manufacturing</a></li>
+                        <li><a href="#">Telecom</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="footer-column col-lg-3 col-md-6 col-sm-12">
+                  <div class="footer-widget links-widget">
+                    <h4 class="widget-title">Helpful Resources</h4>
+                    <div class="widget-content">
+                      <ul class="list">
+                        <li><a href="#">Automobile</a></li>
+                        <li><a href="#">Banking & Insurance</a></li>
+                        <li><a href="#">BPO</a></li>
+                        <li><a href="#">Chemical Industry</a></li>
+                        <li><a href="#">Hospitality</a></li>
+                        <li><a href="#">IT Services</a></li>
+                        <li><a href="#">Pharmaceuticals</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!--Bottom-->
+      <div class="footer-bottom">
+        <div class="auto-container">
+          <div class="outer-box">
+            <div class="copyright-text">© 2024 <a href="#">Stafuel</a>. All Right Reserved. | Designed by <a>thinkB</a></div>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scroll To Top -->
+      <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></div>
+    </footer>
+    <!-- End Main Footer -->
+
+
+
+  </div><!-- End Page Wrapper -->
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/chosen.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.fancybox.js"></script>
+  <script src="js/jquery.modal.min.js"></script>
+  <script src="js/mmenu.polyfills.js"></script>
+  <script src="js/mmenu.js"></script>
+  <script src="js/appear.js"></script>
+  <script src="js/ScrollMagic.min.js"></script>
+  <script src="js/rellax.min.js"></script>
+  <script src="js/owl.js"></script>
+  <script src="js/wow.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+
+</html>
