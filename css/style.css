@@ -7029,6 +7029,21 @@ Job Section
   padding-left: 85px;
   min-height: 51px;
 }
+#application_resume{
+  position: relative;
+  height: 60px;
+}
+#application_resume::after{
+  content: 'Choose Resume';
+  background: rgb(140 189 255);
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  z-index: 2;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 3px;
+}
 
 .job-block .company-logo {
   position: absolute;
