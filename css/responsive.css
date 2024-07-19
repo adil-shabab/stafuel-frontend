@@ -1900,11 +1900,11 @@
 
 	.subscribe-form .form-group .theme-btn,
 	.main-footer.style-three .newsletter-form .form-group .theme-btn{
-		position: relative;
+		position: absolute;
 		display: block;
 		width: 100%;
 		border-radius: 0;
-		right: 0;
+		right: 10px;
 		top: 0;
 		margin: 0;
 		max-width: 100%;
